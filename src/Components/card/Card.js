@@ -10,7 +10,6 @@ export const Card = ({ id, title, imageUrl, description, addRecentCard }) => {
             openNewWindow(description)
             addRecentCard(id)
             }}>
-            <label className='card-title'> {title} </label>
             <img className='card-image' src= {imageUrl} alt= 'card visual'/> 
         </div>      
     )

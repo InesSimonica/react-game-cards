@@ -1,9 +1,9 @@
 :root {
-  --background-color: rgb(26, 20, 33);
+  --background-color: rgb(43, 37, 63);
   --card-background-color: rgb(36, 31, 61);
   --card-hovered-shadow-color: rgba(157, 167, 234, 0.529);
   --card-outline-color: rgba(157, 167, 234, 0.529);
   --card-shadow-color: rgba(0, 0, 0, 0.279);
   --font-color: azure;
-  --recently-played-zone-shadow-color: rgba(6, 6, 27, 0.316);
+  --recently-played-zone-shadow-color: rgba(97, 97, 244, 0.351);
 }

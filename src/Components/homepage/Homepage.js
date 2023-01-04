@@ -7,7 +7,7 @@ import RecentlyPlayedZone from '../Recently-played-zone/Recently-played-zone'
 export const Homepage = () =>  {
     const [cards, setCards] = useState([])
 	const [recentlyPlayedCards, setRecentlyPlayedCards] = useState([])
-	const numberOfCards = 20
+	const numberOfCards = 36
     const numberOfRecentlyPlayedCards = 4
 
     useEffect(() => {

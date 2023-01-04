@@ -2,6 +2,8 @@
 @import './Fonts.css';
 
 .about-window {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   color: var(--font-color);
   display: flex;
@@ -9,4 +11,11 @@
   font-size: 20px;
   height: 100vh;
   justify-content: center;
+}
+
+.about-title {
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: center;
+  width: 200px;
 }
